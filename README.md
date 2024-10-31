@@ -14,6 +14,14 @@ The script works best with URP and the sample scene is also set up in URP.
 * Two sample point evaluation modes - Average and Max.
 * Disable Updates and manually update when needed.
 
+## Screenshot
 ![LumiDemo](https://github.com/user-attachments/assets/7236dc5c-821a-4696-9ff8-eac1585ed5f6)
+
+## Limitations
+* Since realtime lights use ray casting, shadow caster mesh colliders need to be accurate.
+* Does not account for soft shadow edges - a sample point is either in shadow or not.
+* Cannot account for screenspace Global Illumination solutions.
+
+
 
 
